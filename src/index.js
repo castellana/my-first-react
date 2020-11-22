@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from 'react';              //si queremos importar algo del node_modules, escribimos sin ./
+import ReactDOM from 'react-dom';     //importamos react-dom, que está en node_modules
+import './index.css';    // con ./
+import App from './App';   //importamos nuestro App.js (que está en Ordner src). con ./
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
